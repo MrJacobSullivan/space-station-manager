@@ -1,0 +1,19 @@
+{
+  "name": "space-station-manager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "window.js",
+  "scripts": {
+    "start": "electron window.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJacobSullivan/space-station-manager.git"
+  },
+  "author": "Jacob Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrJacobSullivan/space-station-manager/issues"
+  },
+  "homepage": "https://github.com/MrJacobSullivan/space-station-manager#readme"
+}
