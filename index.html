@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <style>
-        @import "misc/fonts/fonts.css";
-    </style>
+
+    <!-- CSS -->
+
+    <style>@import "misc/fonts/fonts.css";</style>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- JavaScript -->
+
+    <script type="text/javascript">
+        const remote = require('electron').remote;
+        const main = remote.require('./window.js');
+    </script>
+    <script src="js/external/mousetrap.min.js" type="text/javascript"></script>
+
 </head>
 <body>
-    <h1>The Space Station Company</h1>
-    <p>by Jacob Sullivan</p>
+    <script src="js/keybinding.js" type="text/javascript"></script>
+    <script src="lifecycle.js" type="text/javascript"></script>
 </body>
 </html>
