@@ -3,24 +3,23 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: #ecf0f1;
+    text-align: center;
+    margin: 15px 10px 30px;
+    padding: 15px 32px;
+    font: 48px/1.1 'Open Sans';
+}
+
 button {
     background-color: #e74c3c;
     border: none;
     color: #ecf0f1;
     margin: 15px 10px 30px;
     padding: 15px 32px;
+    border-radius: 5px;
     width: 50%;
     text-align: center;
     text-decoration: none;
     font: 16px/1.1 'Open Sans';
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-    background-color: #c0392b;
-}
-
-button:active {
-    color: #bdc3c7;
 }

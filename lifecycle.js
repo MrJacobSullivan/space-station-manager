@@ -1,7 +1,7 @@
-let button = document.createElement('button');
-button.textContent = 'Exit';
-button.addEventListener('click', () => {
+let exitButton = document.createElement('button');
+exitButton.textContent = 'Exit';
+exitButton.addEventListener('click', () => {
     var window = remote.getCurrentWindow();
     window.close();
 }, false)
-document.body.appendChild(button);
+document.body.appendChild(exitButton);
