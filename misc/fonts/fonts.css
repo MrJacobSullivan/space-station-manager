@@ -1,15 +1,15 @@
 /* Fonts */
 @font-face {
-    font-family: 'Inconsolata';
-    src: url('Inconsolata/Inconsolata-Regular.ttf') format('truetype');
+  font-family: 'Inconsolata';
+  src: url('Inconsolata/Inconsolata-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('Open_Sans/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url('Open_Sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans Italic';
-    src: url('Open_Sans/OpenSans-Italic.ttf') format('truetype');
+  font-family: 'Open Sans Italic';
+  src: url('Open_Sans/OpenSans-Italic.ttf') format('truetype');
 }

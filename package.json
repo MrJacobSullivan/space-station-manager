@@ -1,18 +1,18 @@
 {
-    "name": "space-station-manager",
-    "version": "0.0.2",
-    "description": "",
-    "main": "window.js",
-    "scripts": {
-        "start": "electron window.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MrJacobSullivan/space-station-manager.git"
-    },
-    "author": "Jacob Sullivan",
-    "bugs": {
-        "url": "https://github.com/MrJacobSullivan/space-station-manager/issues"
-    },
-    "homepage": "https://github.com/MrJacobSullivan/space-station-manager#readme"
+  "name": "space-station-manager",
+  "version": "0.0.3",
+  "description": "",
+  "main": "window.js",
+  "scripts": {
+    "start": "electron window.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJacobSullivan/space-station-manager.git"
+  },
+  "author": "Jacob Sullivan",
+  "bugs": {
+    "url": "https://github.com/MrJacobSullivan/space-station-manager/issues"
+  },
+  "homepage": "https://github.com/MrJacobSullivan/space-station-manager#readme"
 }

@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
 
-    <!-- CSS -->
-    <style>
-        @import "misc/fonts/fonts.css";
-    </style>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+  <!-- CSS -->
+  <style>
+    @import "misc/fonts/fonts.css";
+    @import "css/reset.css";
+    @import "css/main.css";
+  </style>
 
-    <!-- External JavaScript -->
-    <script type="text/javascript">
-        const remote = require('electron').remote;
-        const main = remote.require('./window.js');
-    </script>
-    <script src="js/external/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/external/mousetrap/mousetrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/external/impress/impress.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/external/sizzle/sizzle.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/external/via/via.js" type="text/javascript" charset="utf-8"></script>
+  <!-- Electron -->
+  <script src="electron.js" type="text/javascript" charset="utf-8"></script>
 
-    <!-- Internal JavaScript -->
-    <script src="js/keybinding.js" type="text/javascript" charset="utf-8"></script>
+  <!-- External JavaScript -->
+  <script src="js/external/createjs/preloadjs.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/external/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/external/svg/svg.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/external/sizzle/sizzle.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/external/createjs/soundjs.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/external/mousetrap/mousetrap.min.js" type="text/javascript" charset="utf-8"></script>
 
-    <!-- Systems -->
-    <script src="systems/electrical/electrical.js" type="text/javascript" charset="utf-8"></script>
+  <!-- Internal JavaScript -->
+  <script src="js/internal/keybinding.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/internal/user-settings.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Systems -->
+  <script src="systems/electrical/electrical.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 <body>
 
-    <!-- Lifecycle.js -->
-    <script src="lifecycle.js" type="text/javascript"></script>
-
+  <!-- Lifecycle.js -->
+  <script src="lifecycle.js" type="text/javascript"></script> <!-- should load last -->
 </body>
 </html>
